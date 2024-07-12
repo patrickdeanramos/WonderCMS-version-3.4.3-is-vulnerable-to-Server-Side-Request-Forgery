@@ -6,6 +6,7 @@ WonderCMS version 3.4.3 is vulnerable to Server-Side Request Forgery (SSRF), all
 2. Click on 'Themes' and input http://127.0.0.1:9999 in the custom module field.
 3. On the machine where WonderCMS is hosted, start an HTTP server on port 9999. In this example, we use the Python SimpleHTTPServer module.
 4. Click 'Add', enter the administrator password, and verify that the request was successful.
+   ![alt text](https://github.com/patrickdeanramos/WonderCMS-version-3.4.3-is-vulnerable-to-Server-Side-Request-Forgery-SSRF-/blob/main/wondercms-SSRF-Themes.png?raw=True)
 
 Authors:<br>
 Patrick Dean Ramos<br>
